@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-center">Niha better version than Siri !!</h1>
+                <div id="chatbox" class="border p-3 mb-3">
+                    {% if question %}
+                    <p><strong>You:</strong> {{ question }}</p>
+                    <p><strong>Niha:</strong> {{ answer }}</p>
+                    {% endif %}
+                </div>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="question">Ask a question:</label>
+                        <input type="text" id="question" name="question" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

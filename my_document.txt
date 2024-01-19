@@ -1,0 +1,64 @@
+Name : SAI NIHARIKA NAIDU GANDHAM
+Graduate Student | Ex-Senior Software Engineer | Qualcomm
+@ E1101819@u.nus.edu  +65-80422529 ï gsainiharikanaidu/ @ Visa Status:Student Pass
+CAREER OBJECTIVE
+To be part of an organisational role that provides hands-on experience in developing and deploying innovative solutions, while applying my knowledge of software engineering and programming languages. I am eager to learn and collaborate with cross-functional teams to deliver high-quality software products that solve real-world prob- lems and contribute to the growth of the organization
+ EDUCATION
+Masters in ComputerScience
+National University of Singapore
+z January’23–Current
+• Software Development Fundamentals • Data Structures and Algorithms
+• Artificial Intelligence
+• Distributed Systems
+• Knowledge Discovery and Data Mining
+• Security Fundamentals
+* Singapore
+ B.Tech in Electronics and Communication Engineering
+National Institute of Technology, Rourkela
+z June’15–June’19 * India
+Honors in Electronics and Communication Engineering with GPA of 9.14/10
+PROJECTS
+See True Social
+DSTA-Singapore
+z July’23
+Project aims at finding true vs fake given a social profile which has image , title , comments and posts. Used BERT,RoBERTa , GPT various models for detecting fake profile for the NLP Task.While BERT performed well among all the models. Used Resnet50 for the CV (image fake/true detection).while CV task able to acheive 99.6 % accuracy , NLP Task we are only able to acheive 78.6% accuracy, and the over all accuracy of the social profiles is at 68.7% accuracy.Using Ensemble average able to acheive 88.7% accuracy.
+HDB Rental rate prediction in Singapore
+NUS-Coursework
+z Sept’23
+Project aims at predicting rental rate in Singapore.The task is a regression task. Worked on DataCleaning, Dat- aPreprocessing, DataTransformation. Basic Linear regressor did not perform well on the given dataset. Ran- dom forests/XGBoost performed well.Perfomed cross validation and hyperparameter tuning using Hyper- opt.Acheived a RMSE score of 481.20848.
+EXPERIENCE
+Qualcomm
+  
+Senior Software Engineer
+z July2019–December2022 * Hyderabad,India
+• Experienced professional and proficient with working on 5G PH Layer Small cells.Being a core small cell mem-
+ber in software development and test team worked closely with systems.
+• Developed internal Automation scripts using Python .
+• Developed L2 Application using C which runs on a 3rd party equipment.
+• Designed end to end test plans for various test coverages based on 3GPP Standards.
+• Developed randomisation script for generating different test scenarios - Enhances the test coverage by 100%
+• Worked on providing TD and FD dumps to Systems team to validate the vectors. Developed matlab script to validate the binaries
+• Responsible for raising and resolving issues wrt algorithm to vendors in testequipment
+CERTIFICATIONS
+• AI Planet - LLM Bootcamp (Aug’23 - Sep’23)
+• Coursera - Introduction to Machine Learning by Duke University (Jan’23 - May’23)
+• Youtube - Andrew Ng’s Lectures on DeepLearning (July’23 - current)
+ACHIEVEMENTS
+• Won Annual award received for best performer in the team in 2021
+• Won 2 Qualstar Awards in 3 years
+• Won Academic Excellence Award in 2016
+• Achieved a rank of 8050 in IIT-JEE - top 1percentile in the year across the country • Won multiple state level awards for Maths Olympiad Exams.
+TECHNICAL SKILLS
+• Programming Languages-Python , C, C++ , Java(Basics)
+• DeepLearning Frameworks -Tensorflow , Keras
+• DataAnalysisTools-NumPy,Pandas,Matplotlib
+• Tools-Matlab , Simulink ,Perforce, Eclipse
+• Standards-3GPP Spec Understanding
+• Platforms-Windows , Linux
+• CurrentOngoingLearnings-HTML,CSS,JS,React,GraphQLSQL
+• Editor-GVIM , Vi Editor
+• Cloudbasedtool-Github
+INTERESTS
+• Competitive Programming • Painting
+• Badminton
+    

@@ -1,0 +1,19 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "label": "Latest time that you visited the Memories page",
+      "timestamp_value": 1643618754
+    },
+    {
+      "label": "Latest time that you opened the preferences page for Memories",
+      "timestamp_value": 0
+    },
+    {
+      "label": "When you last clicked on the \"See fewer memories\" button",
+      "timestamp_value": 0
+    }
+  ]
+}

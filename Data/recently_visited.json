@@ -1,0 +1,601 @@
+{
+  "visited_things_v2": [
+    {
+      "name": "Profile visits",
+      "description": "People whose profiles you've visited",
+      "entries": [
+        {
+          "timestamp": 1705490597,
+          "data": {
+            "name": "Manasa Veeramachaneni",
+            "uri": "https://www.facebook.com/manasa.veeramachaneni.1"
+          }
+        },
+        {
+          "timestamp": 1705490590,
+          "data": {
+            "name": "Bhojaram Ram",
+            "uri": "https://www.facebook.com/abhojaram"
+          }
+        },
+        {
+          "timestamp": 1705490590,
+          "data": {
+            "name": "Swathi R.",
+            "uri": "https://www.facebook.com/swathiR007"
+          }
+        },
+        {
+          "timestamp": 1705490554,
+          "data": {
+            "name": "Utkarsh Shrivastava",
+            "uri": "https://www.facebook.com/utkarsh.students"
+          }
+        },
+        {
+          "timestamp": 1705421667,
+          "data": {
+            "name": "Deepak Kandathil",
+            "uri": "https://www.facebook.com/kandathil.deepak"
+          }
+        },
+        {
+          "timestamp": 1705421489,
+          "data": {
+            "name": "Lameck Laluh Luhanga",
+            "uri": "https://www.facebook.com/lameck.laluh"
+          }
+        },
+        {
+          "timestamp": 1705284574,
+          "data": {
+            "name": "Mrutyunjayaraj Parida",
+            "uri": "https://www.facebook.com/mrutyunjayaraj.parida"
+          }
+        },
+        {
+          "timestamp": 1704993414,
+          "data": {
+            "name": "Vasanth Sai",
+            "uri": "https://www.facebook.com/vasanthsai.sama"
+          }
+        },
+        {
+          "timestamp": 1704982148,
+          "data": {
+            "name": "Siddharth Nayak",
+            "uri": "https://www.facebook.com/siddharth.nayak.91"
+          }
+        },
+        {
+          "timestamp": 1704982148,
+          "data": {
+            "name": "Siddharth Naik",
+            "uri": "https://www.facebook.com/sid.thinkalot"
+          }
+        },
+        {
+          "timestamp": 1704982135,
+          "data": {
+            "name": "Siddhartha Shankar Nayak",
+            "uri": "https://www.facebook.com/sidhartha.s.nayak"
+          }
+        },
+        {
+          "timestamp": 1704083307,
+          "data": {
+            "name": "Prathyusha Dasika",
+            "uri": "https://www.facebook.com/prathyusha.dasika"
+          }
+        },
+        {
+          "timestamp": 1704083307,
+          "data": {
+            "name": "Sai Pratheek Yenepalli",
+            "uri": "https://www.facebook.com/saipy19"
+          }
+        },
+        {
+          "timestamp": 1704083254,
+          "data": {
+            "name": "Bhaskar Charan Kanuri",
+            "uri": "https://www.facebook.com/bhaskarcharan.kanuri"
+          }
+        },
+        {
+          "timestamp": 1704083232,
+          "data": {
+            "name": "Surya Tej Kanuri",
+            "uri": "https://www.facebook.com/stejkanuri444"
+          }
+        },
+        {
+          "timestamp": 1704083221,
+          "data": {
+            "name": "V S Saran Malladi",
+            "uri": "https://www.facebook.com/vssaran.malladi"
+          }
+        },
+        {
+          "timestamp": 1704075647,
+          "data": {
+            "name": "Meghana Singamsetty",
+            "uri": "https://www.facebook.com/meghana.singamsetty"
+          }
+        },
+        {
+          "timestamp": 1703477378,
+          "data": {
+            "name": "Ashok Raft",
+            "uri": "https://www.facebook.com/ashok.raft"
+          }
+        },
+        {
+          "timestamp": 1702691059,
+          "data": {
+            "name": "Namrata Jalnekar",
+            "uri": "https://www.facebook.com/namrata.jalnekar"
+          }
+        },
+        {
+          "timestamp": 1702691027,
+          "data": {
+            "name": "Paramdeep Singh",
+            "uri": "https://www.facebook.com/paramdeep.singh.sethi"
+          }
+        },
+        {
+          "timestamp": 1702690896,
+          "data": {
+            "name": "Divya Singh Rajput",
+            "uri": "https://www.facebook.com/divya.singhrajput.7"
+          }
+        },
+        {
+          "timestamp": 1702530968,
+          "data": {
+            "name": "Sonakshi Bhattacharjee",
+            "uri": "https://www.facebook.com/sonakshi.bhattacharjee.9"
+          }
+        },
+        {
+          "timestamp": 1702193827,
+          "data": {
+            "name": "Bony Deepak",
+            "uri": "https://www.facebook.com/Venggenc"
+          }
+        },
+        {
+          "timestamp": 1702193222,
+          "data": {
+            "name": "Pidugu Swaroopa Rani",
+            "uri": "https://www.facebook.com/swarooparani.rani.18"
+          }
+        },
+        {
+          "timestamp": 1702148010,
+          "data": {
+            "name": "Boneyy Deepak",
+            "uri": "https://www.facebook.com/m.deepak.35912"
+          }
+        },
+        {
+          "timestamp": 1702147996,
+          "data": {
+            "name": "Bony Deepak",
+            "uri": "https://www.facebook.com/profile.php?id=100006635974755"
+          }
+        },
+        {
+          "timestamp": 1702147989,
+          "data": {
+            "name": "Bony Deepak",
+            "uri": "https://www.facebook.com/bony.deepak"
+          }
+        },
+        {
+          "timestamp": 1702006593,
+          "data": {
+            "name": "Sai Niharika Naidu Gandham",
+            "uri": "https://www.facebook.com/profile.php?id=100015103892757"
+          }
+        },
+        {
+          "timestamp": 1702006472,
+          "data": {
+            "name": "Shamini Sha",
+            "uri": "https://www.facebook.com/profile.php?id=100068762859744"
+          }
+        },
+        {
+          "timestamp": 1701929682,
+          "data": {
+            "name": "Swaroopa Rani Pidugu",
+            "uri": "https://www.facebook.com/swarooparani.pidugu.7"
+          }
+        },
+        {
+          "timestamp": 1701840040,
+          "data": {
+            "name": "Sai Srija",
+            "uri": "https://www.facebook.com/profile.php?id=100008268603601"
+          }
+        },
+        {
+          "timestamp": 1701840040,
+          "data": {
+            "name": "Manoj Pidugu",
+            "uri": "https://www.facebook.com/profile.php?id=1762647174"
+          }
+        },
+        {
+          "timestamp": 1701839923,
+          "data": {
+            "name": "Swaroopa Rani",
+            "uri": "https://www.facebook.com/swaroopa.rani.969"
+          }
+        },
+        {
+          "timestamp": 1701839706,
+          "data": {
+            "name": "Sai Pidugu",
+            "uri": "https://www.facebook.com/kishore.pidugu.489"
+          }
+        },
+        {
+          "timestamp": 1701707345,
+          "data": {
+            "name": "Reshma Akena",
+            "uri": "https://www.facebook.com/reshma.akena"
+          }
+        },
+        {
+          "timestamp": 1701707262,
+          "data": {
+            "name": "Ganesh K",
+            "uri": "https://www.facebook.com/ganesh.kalwa.92"
+          }
+        },
+        {
+          "timestamp": 1701707236,
+          "data": {
+            "name": "Elvis Cyriac",
+            "uri": "https://www.facebook.com/elvis.cyriac"
+          }
+        },
+        {
+          "timestamp": 1701707189,
+          "data": {
+            "name": "Krishna Vamsi",
+            "uri": "https://www.facebook.com/krishnavamsichalavadi"
+          }
+        },
+        {
+          "timestamp": 1701707183,
+          "data": {
+            "name": "Hanumad Rama Krishna Baisetti",
+            "uri": "https://www.facebook.com/b.hanumad.krishna"
+          }
+        },
+        {
+          "timestamp": 1701707022,
+          "data": {
+            "name": "Saleem Khan",
+            "uri": "https://www.facebook.com/khan.pattan"
+          }
+        },
+        {
+          "timestamp": 1701576499,
+          "data": {
+            "name": "Kshipra Kapoor",
+            "uri": "https://www.facebook.com/kshiprakap"
+          }
+        },
+        {
+          "timestamp": 1701165131,
+          "data": {
+            "name": "Prateek Senapati",
+            "uri": "https://www.facebook.com/IAmprAtEEk.sEnApAtI"
+          }
+        },
+        {
+          "timestamp": 1701052601,
+          "data": {
+            "name": "Rakesh Andey",
+            "uri": "https://www.facebook.com/rakeshandey"
+          }
+        },
+        {
+          "timestamp": 1701052577,
+          "data": {
+            "name": "Rakesh Ande",
+            "uri": "https://www.facebook.com/rakesh.ande.3726"
+          }
+        },
+        {
+          "timestamp": 1701052577,
+          "data": {
+            "name": "Rakesh Ande",
+            "uri": "https://www.facebook.com/rakesh.ande.5"
+          }
+        },
+        {
+          "timestamp": 1701052476,
+          "data": {
+            "name": "Ellinna Singh",
+            "uri": "https://www.facebook.com/ellinna"
+          }
+        },
+        {
+          "timestamp": 1700541923,
+          "data": {
+            "name": "Devendra Sharma",
+            "uri": "https://www.facebook.com/devendra.sharma.336"
+          }
+        },
+        {
+          "timestamp": 1700324898,
+          "data": {
+            "name": "NUSWhispers",
+            "uri": "https://www.facebook.com/nuswhispers"
+          }
+        },
+        {
+          "timestamp": 1700321874,
+          "data": {
+            "name": "Authentic Vision",
+            "uri": "https://www.facebook.com/AuthenticVisionGmbH"
+          }
+        },
+        {
+          "timestamp": 1700321794,
+          "data": {
+            "name": "Chaitanya Lukka",
+            "uri": "https://www.facebook.com/lc8055"
+          }
+        },
+        {
+          "timestamp": 1699446963,
+          "data": {
+            "name": "Mrutyunjaya Parida",
+            "uri": "https://www.facebook.com/profile.php?id=100005268318028"
+          }
+        },
+        {
+          "timestamp": 1698996165,
+          "data": {
+            "name": "Rina Rani Samal",
+            "uri": "https://www.facebook.com/rina.samal.370"
+          }
+        },
+        {
+          "timestamp": 1698996125,
+          "data": {
+            "name": "Surya Behera",
+            "uri": "https://www.facebook.com/stunter.pintu"
+          }
+        },
+        {
+          "timestamp": 1698890803,
+          "data": {
+            "name": "Boppana Sudeepth",
+            "uri": "https://www.facebook.com/boppana.sudeepth"
+          }
+        },
+        {
+          "timestamp": 1698300308,
+          "data": {
+            "name": "Amrutha Vamsi Krishna",
+            "uri": "https://www.facebook.com/amruthavarshini.devarapalli"
+          }
+        },
+        {
+          "timestamp": 1698300292,
+          "data": {
+            "name": "Vamsi Sangam",
+            "uri": "https://www.facebook.com/vamsi.sangam"
+          }
+        },
+        {
+          "timestamp": 1698300279,
+          "data": {
+            "name": "Vamshi Sangham",
+            "uri": "https://www.facebook.com/vamsi.kumar.3975012"
+          }
+        },
+        {
+          "timestamp": 1698131038,
+          "data": {
+            "name": "Gade Gopi",
+            "uri": "https://www.facebook.com/profile.php?id=100085050463159"
+          }
+        },
+        {
+          "timestamp": 1698131038,
+          "data": {
+            "name": "A Chitt Cherry",
+            "uri": "https://www.facebook.com/chirutha.cherry.7"
+          }
+        },
+        {
+          "timestamp": 1698129811,
+          "data": {
+            "name": "Bangarigalla Srinivas",
+            "uri": "https://www.facebook.com/bangarigalla.srinivas.5"
+          }
+        },
+        {
+          "timestamp": 1698129770,
+          "data": {
+            "name": "Gowtham Reddy",
+            "uri": "https://www.facebook.com/gowtham.reddy.39750"
+          }
+        },
+        {
+          "timestamp": 1698029041,
+          "data": {
+            "name": "Tejaswi Singh",
+            "uri": "https://www.facebook.com/tejaswi.singh"
+          }
+        },
+        {
+          "timestamp": 1698028883,
+          "data": {
+            "name": "Er Subrat Kumar Behera",
+            "uri": "https://www.facebook.com/subratkumar.behera.7509"
+          }
+        },
+        {
+          "timestamp": 1698028814,
+          "data": {
+            "name": "VS Malladi",
+            "uri": "https://www.facebook.com/profile.php?id=100079746502167"
+          }
+        },
+        {
+          "timestamp": 1698028512,
+          "data": {
+            "name": "Srikanth Chinna",
+            "uri": "https://www.facebook.com/srikanth.chinna.5688476"
+          }
+        },
+        {
+          "timestamp": 1698028375,
+          "data": {
+            "name": "Ankit Singhal",
+            "uri": "https://www.facebook.com/ankit.singhal.75436"
+          }
+        },
+        {
+          "timestamp": 1697642125,
+          "data": {
+            "name": "Shaik Sameer",
+            "uri": "https://www.facebook.com/profile.php?id=100006024945975"
+          }
+        },
+        {
+          "timestamp": 1697642125,
+          "data": {
+            "name": "Haragopal Gopal",
+            "uri": "https://www.facebook.com/haragopal.gopal"
+          }
+        },
+        {
+          "timestamp": 1697642067,
+          "data": {
+            "name": "ItsRainingRaincoats",
+            "uri": "https://www.facebook.com/itsrainingraincoats"
+          }
+        },
+        {
+          "timestamp": 1697642067,
+          "data": {
+            "name": "Dn Suma",
+            "uri": "https://www.facebook.com/ses.hr.7"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Groups visited",
+      "description": "Groups you've recently visited",
+      "entries": [
+        {
+          "timestamp": 1705422272,
+          "data": {
+            "name": "Sony Cinema Line",
+            "uri": "https://www.facebook.com/groups/sonypxwfx9/"
+          }
+        },
+        {
+          "timestamp": 1701576393,
+          "data": {
+            "name": "Indians In Singapore",
+            "uri": "https://www.facebook.com/groups/IndiansInSG/"
+          }
+        },
+        {
+          "timestamp": 1698890779,
+          "data": {
+            "name": "TELUGU SINGAPORE",
+            "uri": "https://www.facebook.com/groups/253075684849673/"
+          }
+        },
+        {
+          "timestamp": 1698028898,
+          "data": {
+            "name": "Singapore Lost And Found.",
+            "uri": "https://www.facebook.com/groups/987710907941538/"
+          }
+        },
+        {
+          "timestamp": 1691744494,
+          "data": {
+            "name": "Singapore Telugu People",
+            "uri": "https://www.facebook.com/groups/974510259310007/"
+          }
+        },
+        {
+          "timestamp": 1691146150,
+          "data": {
+            "name": "Expats in Singapore",
+            "uri": "https://www.facebook.com/groups/124648157604640/"
+          }
+        },
+        {
+          "timestamp": 1687502921,
+          "data": {
+            "name": "Singapore Telugu Friends",
+            "uri": "https://www.facebook.com/groups/SingaporeTeluguFriends/"
+          }
+        },
+        {
+          "timestamp": 1687497083,
+          "data": {
+            "name": "TELUGU NRI'S IN SINGAPORE",
+            "uri": "https://www.facebook.com/groups/537269510577758/"
+          }
+        },
+        {
+          "timestamp": 1687092212,
+          "data": {
+            "name": "Singapore Telugu mitrulu",
+            "uri": "https://www.facebook.com/groups/188665564499468/"
+          }
+        },
+        {
+          "timestamp": 1687092194,
+          "data": {
+            "name": "INDIANS IN SINGAPORE",
+            "uri": "https://www.facebook.com/groups/699613710460283/"
+          }
+        },
+        {
+          "timestamp": 1687092188,
+          "data": {
+            "name": "Indian Community and Events in Singapore",
+            "uri": "https://www.facebook.com/groups/1774761276122055/"
+          }
+        },
+        {
+          "timestamp": 1675088898,
+          "data": {
+            "name": "Sofia Ansari",
+            "uri": "https://www.facebook.com/groups/971985393684266/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Marketplace visits",
+      "description": "Dates you've visited Marketplace",
+      "entries": [
+        {
+          "data": {
+            "value": "31 Aug 2023"
+          }
+        }
+      ]
+    }
+  ]
+}

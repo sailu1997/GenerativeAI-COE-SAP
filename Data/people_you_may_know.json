@@ -1,0 +1,30 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "label": "Friend suggestions",
+      "vec": [
+        {
+          "value": "Deepthi Krishna"
+        },
+        {
+          "value": "Dibya Nath"
+        },
+        {
+          "value": "Ankita Nayak"
+        },
+        {
+          "value": "Ragamitha Ganji"
+        },
+        {
+          "value": "Srihitha Tangudu"
+        },
+        {
+          "value": "Lekhana Balusu"
+        }
+      ]
+    }
+  ]
+}
