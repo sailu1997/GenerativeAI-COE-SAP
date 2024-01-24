@@ -1,22 +1,44 @@
-const chatbox = document.getElementById('chatbox');
-const history = [];
+let chatMessages = [];
 
-function addUserMessage(question) {
-    history.push({ role: 'User', content: question });
-    renderMessages();
-}
+document.addEventListener('DOMContentLoaded', function() {
+    const chatBox = document.getElementById('chat-box');
+    const userInput = document.getElementById('user-msg');
+    const sendButton = document.getElementById('send-button');
 
-function addAssistantMessage(answer) {
-    history.push({ role: 'Assistant', content: answer });
-    renderMessages();
-}
+    loadChatMessages();
 
-function renderMessages() {
-    chatbox.innerHTML = '';
-    history.forEach((message) => {
-        const messageElement = document.createElement('p');
-        messageElement.innerHTML = `<strong>${message.role}:</strong> ${message.content}`;
-        chatbox.appendChild(messageElement);
+    sendButton.addEventListener('click', function() {
+        const userMessage = userInput.value;
+        if (userMessage !== ''){
+            displayMessage('user-msg', userMessage);
+            simulateAITyping();
+        }
+        userInput.value = '';
     });
-}
 
+    function simulateAITyping() {
+        setTimeout(function() {
+            displayMessage('ai-msg', 'Let me think...');   
+        }, 1000);
+    }
+
+    function displayMessage(sender, message) {
+        const messageElement = document.createElement('div');
+        messageElement.classList.add('message');
+        messageElement.classList.add(sender);
+        messageElement.innerHTML = message;
+        chatBox.appendChild(messageElement);
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        chatMessages.push({
+            sender: sender,
+            message: message
+        });
+    }
+
+    function loadChatMessages() {
+        chatMessages.forEach(function(chatMessage) {
+            displayMessage(chatMessage.sender, chatMessage.message);
+        });
+    }
+});

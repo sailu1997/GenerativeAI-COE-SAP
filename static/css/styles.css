@@ -1,52 +1,127 @@
-/* styles.css */
-
 body {
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.container {
-    margin-top: 100px;
-    border-color: #007bff;
-    border-radius: 10px;
-    background-color: blanchedalmond;
+#chat-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    margin-top: auto;
 }
 
-#chatbox {
-    background-color: #ffffff;
-    border-radius: 5px;
+#chat-box {
+    height: 100vh;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
     padding: 10px;
+    overflow-y: auto;
 }
 
-#chatbox .chatlogs {
+#typing-indicator {
+    display: none; /* Hide initially */
+    font-style: italic;
+    color: #666;
+}
+
+
+
+send-button {
+    width: 60px;
     padding: 10px;
-    width: 100%;
-    height: 400px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-
-.form-group{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #ffffff;
-    padding: 10px;
-    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.2);
-}
-
-
-/* Style for the arrow button */
-#send-question {
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Text color */
+    background-color: #007bff;
+    color: white;
     border: none;
-    padding: 10px 20px;
+    border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
 }
 
-/* Hover effect */
-#send-question:hover {
-    background-color: #0056b3; /* Updated background color on hover */
+send-button:hover {
+    background-color: #0056b3;
 }
+
+chat-bubble {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+#user-msg {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px 10px 0 10px;
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+}
+
+#ai-msg {
+    background-color: #f1f1f1;
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+}
+
+
+#chat-messages {
+    list-style: none;
+    padding: 0;
+}
+
+#chat-messages li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px; /* adjust as needed */
+    height: 40px; /* adjust as needed */
+    border-radius: 50%; /* circular avatar */
+    margin-right: 10px;
+}
+
+.user-message {
+    background-color: #f4f4f8; /* Light grey */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: right;
+    word-wrap: break-word;
+    margin-left: 50%;
+}
+
+.niha-message {
+    background-color: #007FFF;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    word-wrap: break-word;
+    margin-right: 50%;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    border: 2px 
+    solid #000;
+}
+

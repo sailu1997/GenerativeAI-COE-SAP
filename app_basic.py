@@ -10,7 +10,7 @@ def chat():
     if request.method == 'POST':
         user_question = request.form['question']
 
-        with open("out.json", "r") as json_file:
+        with open("./Data/resume_data.json", "r") as json_file:
             json_data = json.load(json_file)
 
         openai.api_key = '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'  # Replace with your API key
@@ -26,7 +26,7 @@ def chat():
         )
 
         generated_text = response['choices'][0]['message']['content']
-        return render_template('index.html', question=user_question, answer=generated_text)
+        return render_template('chat.html', question=user_question, answer=generated_text)
 
     return render_template('index.html')
 

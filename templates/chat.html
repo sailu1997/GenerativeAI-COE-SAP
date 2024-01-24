@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NihaWeb</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="chatbox" class="chatbox">
-                    {%if entry_message %}
-                    <p><strong>Kushi:</strong> {{ entry_message }}</p>
-                    {% endif %}
-                    {% if question %}
-                    <p><strong>You:</strong> {{ question }}</p>
-                    <p><strong>Kushi:</strong> {{ answer }}</p>
-                    {% endif %}
-                <form method="POST" class="form-bottom">
-                    <div class="form-group">
-                        <input type="text" id="question" name="question" class="form-control" placeholder="Ask Niha">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                    
-                </form>
-                </div>
-            </div>
-        </div>
+    <div class="container chat-container">
+        <div id="chat-box">
+            <ul id = "chat-messages">
+                {% for chat in chatHistory %}
+                    <li class = "{{ 'user-message' if chat.sender == 'User' else 'niha-message' }}">
+                        <img src="{{ url_for('static', filename='/images/' + ('User.png' if chat.sender == 'User' else 'AI.png')) }}" alt="Avatar" class="avatar">
+                        <div class="message-text">{{ chat.message }}</div>
+                    </li>
+                {% endfor %}
+            </ul>     
+             <form method = "POST" id="chat-form" class="chat-form">
+                <input type="text" name = "question" id="user-input" placeholder="Ask something..." autofocus>
+                <button type="submit" id="send-button" class="btn btn-primary">Send</button>   
+            </form>
+         </div>
     </div>
+    <script src="static/js/script.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
