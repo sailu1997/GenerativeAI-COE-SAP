@@ -9,7 +9,7 @@ load_dotenv()
 api_key = os.environ.get("API_KEY")
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
-app.secret_key = 'vbaesldzsc2308hfewocnaslXZkwcpdsx'
+app.secret_key = os.environ.get("SECRET_KEY")
 
 data_files = [data_file for data_file in os.listdir('./Data') if data_file.endswith('.json')]
 data = []
@@ -59,7 +59,7 @@ def chat():
         session['chatHistory'].append({"sender":'User', "message":user_question})
         session['chatHistory'].append({"sender":'Niha', "message":generated_text})
         session.modified = True
-        
+
         print("Chat history found: ", session['chatHistory'])
         return render_template('chat.html', chatHistory=session['chatHistory'])
 
