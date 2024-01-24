@@ -1,6 +1,12 @@
 
 FROM Python:3.10.9
-WORKDIR /app
-RUN pip3 install -r requirements.txt
-EXPOSE 80
+
+WORKDIR /home/yt_clone/
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
 CMD ["python3", "app.py"]
