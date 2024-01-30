@@ -13,7 +13,8 @@
 - git clone "repository_url"
 - Create .env file and add the following lines :
    API_KEY = "your_Open_ai_api_key"
-   SECRET_KEY = "anyrandomsecrectkey" #example: rbuisdv834y9hgqfwaondscklmxzopfrkeads2934r
+   SECRET_KEY = "anyrandomsecrectkey"
+  #SECRET_KEY can be like this anything random: rbuisdv834y9hgqfwaondscklmxzopfrkeads2934r
 - pip install nltk
 - pip install -r requirements.txt
 - python3 app.py
