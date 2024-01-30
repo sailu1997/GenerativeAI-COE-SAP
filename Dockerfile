@@ -1,12 +1,14 @@
-FROM Python:3.10.9
+FROM python:3.10
 
 WORKDIR /home/yt_clone/
 
 COPY . .
 
-RUN pip3 install --upgrade pip
+RUN pip install --upgrade pip
 
-RUN pip3 install -r requirements.txt
+RUN pip install nltk
+
+RUN pip install -r requirements.txt
 
 EXPOSE 3000
 
