@@ -10,4 +10,11 @@
    - Enter the question you wanted to ask , and it responds with answers
 
 #Without Docker:
-1. git clone repository_url
+- git clone "repository_url"
+- Create .env file and add the following lines :
+   API_KEY = "your_Open_ai_api_key"
+   SECRET_KEY = "anyrandomsecrectkey" #example: rbuisdv834y9hgqfwaondscklmxzopfrkeads2934r
+- pip install nltk
+- pip install -r requirements.txt
+- python3 app.py
+- To access the application go to: http://localhost:3000
