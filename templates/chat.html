@@ -16,11 +16,20 @@
                         <img src="{{ url_for('static', filename='/images/' + ('User.png' if chat.sender == 'User' else 'AI.png')) }}" alt="Avatar" class="avatar">
                         <div class="message-text">{{ chat.message }}</div>
                     </li>
+                    {% if chat.sender == 'Niha'%}
+                        <div class="feedback-buttons">
+                            <button class="feedback-button thumbs-up" data-value="up">👍</button>
+                            <button class="feedback-button thumbs-down" data-value="down">👎</button>
+                        </div>
+                    {% endif %}
                 {% endfor %}
             </ul>     
              <form method = "POST" id="chat-form" class="chat-form">
                 <input type="text" name = "question" id="user-input" placeholder="Ask something..." autofocus>
-                <button type="submit" id="send-button" class="btn btn-primary">Send</button>   
+                <button type="submit" id="send-button" class="btn btn-primary">Send</button>
+            </form>
+            <form method="POST">
+                <input type="hidden" name="feedback" id="feedback-input" value="">
             </form>
          </div>
     </div>

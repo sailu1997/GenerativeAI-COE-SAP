@@ -7,9 +7,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     loadChatMessages();
 
+    document.querySelectorAll('.feedback-button').forEach(button => {
+        button.addEventListener('click', function() {
+            const feedbackType = this.classList.contains('thumbs-up') ? 'positive' : 'negative';
+            console.log(feedbackType);
+            sendFeedback(feedbackType);
+        });
+    });
+
+    function sendFeedback(feedbackValue) {
+        fetch('/submit-feedback', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ feedback: feedbackValue })
+        })
+        .then(response => response.json())
+        .then(data => console.log('Success:', data))
+        .catch(error => console.error('Error:', error));
+    }
+
     sendButton.addEventListener('click', function() {
         const userMessage = userInput.value;
-        if (userMessage !== ''){
+        if (userMessage !== '') {
             displayMessage('user-msg', userMessage);
             simulateAITyping();
         }
